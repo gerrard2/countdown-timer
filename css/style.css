@@ -1,6 +1,4 @@
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -91,328 +89,95 @@ body {
     color: #fff;
 }
 
-@media screen and (max-width: 1230px) {
-    .image {
-        padding-right:40px ;
-        max-width: 480px;
-     }
-
-     .content .h1{
-        font-size: 33px; 
-        width: 550px;
-    }
-}
-
-@media screen and (max-width: 1089px) {
-    .image {
-        padding-right:38px ;
-        max-width: 470px;
-     }
-
-     .content .h1{
-        font-size: 33px; 
-        width: 550px;
-    }
-}
-
-@media screen and (max-width: 1070px) {
-    .image {
-        padding-right:40px ;
-        max-width: 460px;
-     }
-
-     .content .h1{
-        font-size: 29px; 
-        width: 460px;
-    }
-}
-
-@media screen and (max-width: 1058px) {
-    .image {
-        padding-right:40px ;
-        max-width: 460px;
-     }
-
-     .content .h1{
-        font-size: 29px; 
-        width: 460px;
-    }
-}
-
-@media screen and (max-width: 1058px) {
-    .image {
-        padding-right:40px ;
-     }
-
-     .content .h1{
-        font-size: 29px; 
-        width: 460px;
-    }
-}
-
-
-@media screen and (max-width: 1048px) {
-    .image {
-        padding-right:30px ;
-     }
-
-     .content .h1{
-        font-size: 29px; 
-        width: 480px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
-     .image {
-        padding-right:20px ;
-     }
-
-     .content {
-        max-width: 900px;
-        width: 100%;
-    }
-
-     .content .h1{
-        font-size: 29px; 
-        width: 500px;
-    }
-
-}
-
-@media screen and (max-width: 991px) {
-    .content {
-        max-width: 700px;
-        width: 100%;
-    }
-
-   .content h1 {
-    font-size: 27px;
-   }
-
-}
-
-@media screen and (max-width: 991px) {
-    .content {
-        max-width: 460px;
-        width: 100%;
-    }
-
-   .content h1 {
-    font-size: 27px;
-   }
-
-}
-
-@media screen and (max-width: 915px) {
-    .content {
-        max-width: 800px;
-        width: 100%;
-        justify-content: center;
-        margin-left: 30px;
-    }
-
-}
-
-
-@media screen and (max-width: 896px) {
     .countdown {
         flex-direction: column;
+        align-items: center;
     }
 
-    .content {
-        max-width: 700px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-  
     .image {
-        padding-bottom: 30px;
+        max-width: 100%;
     }
 
-
-    
-}
-
-@media screen and (max-width: 879px) {
     .content {
-        max-width: 680px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        margin-right: 0;
+        text-align: center;
     }
-}
 
-@media screen and (max-width: 780px) {
-    .content {
-        max-width: 660px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .timer {
+        padding-right: 0;
+        flex-wrap: wrap;
+    }
+
+    .sub-timer {
+        margin-bottom: 10px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .content {
-        max-width: 655px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 740px) {
-    .content {
-        max-width: 645px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 730px) {
-    .content {
-        max-width: 630px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .countdown {
+        padding: 50px 3% 0;
     }
 
-    .content .h1 {
-        font-size: 26px;
-    }
-}
-
-@media screen and (max-width: 715px) {
-    .content {
-        max-width: 615px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .content {
-        max-width: 600px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 685px) {
-    .content {
-        max-width: 590px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 675px) {
-    .content {
-        max-width: 580px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 660px) {
-    .content {
-        max-width:560px;
-        width: 100%;
+    .content h1 {
+        font-size: 24px;
     }
 
-    .timer {
-        margin-left: 10px;
+    .content h3 {
+        font-size: 18px;
     }
 
-    .sub-timer{
-        justify-content: space-evenly;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .content {
-        max-width: 545px;
-        width: 100%;
-    }
-
-    .timer {
-        margin-left: 10px;
-    }
-
-}
-
-@media screen and (max-width: 630px) {
-    .content {
-        max-width: 530px;
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 615px) {
-    .content {
-        max-width: 520px;
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-    .content {
-        max-width: 500px;
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 580px) {
-    .content {
-        max-width: 490px;
-        width: 100%;
-    }
-
-    .timer {
-        margin-left: 12px;
+    .content p {
+        font-size: 14px;
     }
 
     .sub-timer {
-    justify-content: space-evenly;
-    margin-left: 30px;
+        height: 60px;
+        width: 60px;
     }
 
-}
-
-@media screen and (max-width: 560px) {
-    .content {
-        max-width: 475px;
-        width: 100%;
+    .sub-timer h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
     }
 
+    .sub-timer p {
+        font-size: 12px;
+    }
 }
 
-@media screen and (max-width: 540px) {
-    .content {
-        max-width: 465px;
-        width: 100%;
+@media screen and (max-width: 480px) {
+    .countdown {
+        padding: 30px 3% 0;
     }
 
-}
-
-@media screen and (max-width: 510px) {
-    .content {
-        max-width: 430px;
-        width: 100%;
+    .content h1 {
+        font-size: 20px;
+        word-spacing: 1px;
+        letter-spacing: 2px;
     }
 
+    .content h3 {
+        font-size: 16px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+    .sub-timer {
+        height: 50px;
+        width: 50px;
+    }
+
+    .sub-timer h1 {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 18px;
+    }
+
+    .sub-timer p {
+        font-size: 10px;
+    }
 }
-
-
